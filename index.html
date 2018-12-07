@@ -8,9 +8,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-
-
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -27,66 +24,54 @@
     <!-- Custom styles for this template -->
     <link href="css/new-age.min.css" rel="stylesheet">
 
-
-
   </head>
 
   <body id="page-top">
+
+<div class="video-section">
+    <video id="video-elem" autoplay loop muted>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <div class="video-overlay">
+      <h1>SAVE A PET</h1>
+    </div>
+</div>
+
+
     <section class="download bg-primary text-center" id="download">
       <div class= "section">
-        <h1> SAVE A PET </h1>
-
-
-      <video autoplay loop muted>
-          <source src="video.mp4" type="video/mp4">
-      </video>
-
 
           <div class="col-md-8 mx-auto">
             <h2 class="section-heading">Discover what all the barks are about!</h2>
-            <p>Our app is available on any mobile device! Download now to find your pet!</p>
+            <p>There are thousands of homeless pets all around London.</p>
+            <p>Our app is designed to make it easier than ever to connect people and pets.</p>
+            <p>Take a tour through our image library to find the perfect dog for you, or upload photos of the pet you want to find a home for.</p>
+
+            <button type="button">Have a Look!</button>
+
+            <div class="badges">
+              <a class="badge-link" href="#"><img src="img/googleplay.svg" alt=""></a>
+              <a class="badge-link" href="#"><img src="img/appstore.svg" alt=""></a>
+            <br>
+          </div>
 
             </div>
           </div>
         </div>
-      </div>
     </section>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">App Store</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-
 
     <header class="masthead">
       <div class="container h-100">
         <div class="row h-100">
+
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
               <h1 class="mb-5">SAVE A PET!</h1>
               <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Take the tour</a>
             </div>
           </div>
+
           <div class="col-lg-5 my-auto">
             <div class="device-container">
               <div class="device-mockup iphone6_plus portrait white">
@@ -106,33 +91,39 @@
       </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Discover what all the barks are about!</h2>
-            <p>There are thousands of homeless pets all around London.</p>
-            <p>Our app is designed to make it easier than ever to connect people and pets.</p>
-            <p>Take a tour through our image library to find the perfect dog for you, or upload photos of the pet you want to find a home for.</p>
-
-            <div class="badges">
-              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-            <br>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
           <h2>What can you do with this app?</h2>
-          <p class="text-muted">Check out what you can do with this app theme!</p>
           <hr>
         </div>
+      </div>
+
+      <table border="2px">
+        <tr align"left">
+          <td width="200px">
+            <h3>Device Mockups</h3>
+            <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+          </td>
+          <td width="200px">
+            <i class="icon-camera text-primary"></i>
+            <h3>Upload a photo</h3>
+            <p class="text-muted">If you want to find a new home for an animal, you can upload up to 5 photos to the online library</p>
+
+          </td>
+        </tr>
+        <tr align"right">
+          <td width="200px">
+            <h3>Gift a pet!</h3>
+            <p class="text-muted">You can send potential pets to your friends</p>
+          </td>
+          <td width="200px">
+            <h3>Open Source</h3>
+            <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+          </td>
+        </tr>
+
+      </table>
 
         <div class="row">
           <div class="col-lg-4 my-auto">
@@ -156,57 +147,23 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-screen-smartphone text-primary"></i>
-<div class="row">
-<div col-2>
-                    <li><h3>Device Mockups</h3>
-                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                  </li>
-                </div>
 
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
-                    <li><h3>Upload a photo</h3>
-                    <p class="text-muted">If you want to find a new home for an animal, you can upload up to 5 photos to the online library</p>
-                  </li>
-                  </div>
-                </div>
 
-                <li><h3>Gift a pet!</h3>
-                <p class="text-muted">You can send potential pets to your friends</p>
-              </li>
-              </div>
-
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
-
-                </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
-                  </div>
-                </div>
-              </div>
-
-                    <li><h3>Open Source</h3>
-                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                  </li>
     </section>
 
     <section class="cta">
       <div class="cta-content">
         <div class="container">
-          <h2>Stop waiting.<br>Start building.</h2>
+          <h2>Stop waiting.<br>Start looking for your new best friend!</h2>
           <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
         </div>
       </div>
       <div class="overlay"></div>
     </section>
 
+
     <section class="contact bg-primary" id="contact">
+
       <div class="container">
         <h2>We
           <i class="fas fa-heart"></i>
@@ -235,15 +192,13 @@
       <div class="container">
         <p>&copy; Your Website 2018. All Rights Reserved.</p>
         <ul class="list-inline">
-          <li class="list-inline-item">
+          <class="list-inline-item">
             <a href="#">Privacy</a>
-          </li>
-          <li class="list-inline-item">
+          <class="list-inline-item">
             <a href="#">Terms</a>
-          </li>
-          <li class="list-inline-item">
+          <class="list-inline-item">
             <a href="#">FAQ</a>
-          </li>
+
         </ul>
       </div>
     </footer>
